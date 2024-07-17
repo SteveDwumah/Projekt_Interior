@@ -11,7 +11,6 @@
     padding: 0;
     margin: 0;
 }
-
 header{
     background-image: url(../img/spacejoy-9M66C_w_ToM-unsplash.jpg);
     height: 100svh;
@@ -32,6 +31,7 @@ h1{
     font-size: 46px;
     color: white;
     height: 50px;
+    cursor: pointer;
 }
 h1:hover{
     text-decoration: underline;
@@ -47,7 +47,6 @@ h1:hover{
     margin: 2px;
     border-radius: 10px;
   }
-
 .slim{
     display: flex;
     flex-direction: column;
@@ -107,18 +106,8 @@ h1:hover{
     background-color: #3a4f52;
     color: white;
 }
-
 .second{
     margin-bottom: 12rem;
-}
-
-.pic1{
-    background-image: url(../img/jason-briscoe-UV81E0oXXWQ-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    min-width: max-content;
-    height: 400px;
-    margin-bottom: 2rem;
 }
 .pic1 >div, .pic2 >div, .pic3 >div, .pic4 >div, .pic5 >div, .pic6 >div {
     display: flex;
@@ -127,7 +116,6 @@ h1:hover{
     height: 400px;
     background-color: rgba(1, 95, 95, 0.604);
     transition: all 0.5s;
-    
 }
 .pic1 >div >button, .pic2 >div >button, .pic3 >div >button, .pic4 >div >button, .pic5 >div >button, .pic6 >div >button{
     color: #ffffff;
@@ -142,49 +130,35 @@ h1:hover{
 }
 .pic1:hover >div, .pic2:hover >div, .pic3:hover >div, .pic4:hover >div, .pic5:hover >div, .pic6:hover >div{
     opacity: 0;
-
 }
-
-
-.pic2{
-    background-image: url(../img/jason-wang-NxAwryAbtIw-unsplash.jpg);
+.pic1 >div >button:hover, .pic2 >div >button:hover, .pic3 >div >button:hover, .pic4 >div >button:hover, .pic5 >div >button:hover, .pic6 >div >button:hover{
+    background-color: white;
+    color: #3a4f52;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
     background-size: cover;
     background-position: center;
     min-width: max-content;
     height: 400px;
     margin-bottom: 2rem;
+}
+.pic1{
+    background-image: url(../img/jason-briscoe-UV81E0oXXWQ-unsplash.jpg);
+}
+.pic2{
+    background-image: url(../img/jason-wang-NxAwryAbtIw-unsplash.jpg);
 }
 .pic3{
     background-image: url(../img/r-architecture-CCjAPxoQWgQ-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    min-width: max-content;
-    height: 400px;
-    margin-bottom: 2rem;
 }
 .pic4{
     background-image: url(../img/iwood-R5v8Xtc0ecg-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    min-width: max-content;
-    height: 400px;
-    margin-bottom: 2rem;
 }
 .pic5{
     background-image: url(../img/jean-philippe-delberghe-xrjusFfOksI-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    min-width: max-content;
-    height: 400px;
-    margin-bottom: 2rem;
 }
 .pic6{
     background-image: url(../img/jonathan-borba-YdomJdFdbDo-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    min-width: max-content;
-    height: 400px;
-    margin-bottom: 2rem;
 }
 .third{
     background-image: url(../img/kam-idris-_HqHX3LBN18-unsplash.jpg);

@@ -19,7 +19,7 @@
 
 This project is a part of a Fullstack Bootcamp. It was developed over the course of two days. Using Visual Studio Code, I built this project with HTML and CSS for styling.
 
-The aim of this project was to practice the concepts learned in the first module of the Bootcamp, specifically HTML and CSS. The result is a flexible and responsive website that could serve as a rental platform for interior design. It features a Headline and a burger menu adapts to screen size. Additionally, it includes detailed product cards and a generally adaptive layout.
+The aim of this project was to practice the concepts learned in the first module of the Bootcamp, specifically HTML and CSS. The result is a flexible and responsive website that could serve as a rental platform for interior design. It features a Headline and a burger menu adapts to screen size. Additionally, it includes a generally adaptive layout.
 
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%">
@@ -62,7 +62,7 @@ git clone https://git@github.com:SteveDwumah/Projekt_Interior.git
 
 ## Design
 
-The design for "Project Interior" was provided as part of the Bootcamp and created using Figma. This design served as a blueprint to guide the development of the project, ensuring a cohesive and visually appealing user experience.
+The design for "Project Interior" was provided as part of the Bootcamp and created using HTML, CSS and Figma.
 
 ## Deployment
 

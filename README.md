@@ -13,7 +13,7 @@
 2. [Techstack](#technologies)
 3. [Installation](#installation)
 4. [Design](#design)
-5. [FAQs](#faqs)
+5. [Deployment](#deployment)
 
 ## About
 

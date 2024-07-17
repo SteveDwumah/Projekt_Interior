@@ -6,7 +6,6 @@
     font-family: "Nixie";
     src: url(../fonts/NixieOne-Regular.ttf);
 }
-
 *{
     padding: 0;
     margin: 0;
@@ -232,7 +231,6 @@ font-family: "Alegreya";
     justify-content: space-between;
     height: 108vh;
     margin-bottom: 3rem;
-    
 }
 .mind >img, .winter >img, .wall >img{
     width: 100vw;
@@ -272,7 +270,6 @@ padding-left: 15px;
     background-position: center;
     width: 100vw;
     height: 122vh;
-
 }
 .idk{
     display: flex;
@@ -399,7 +396,6 @@ padding-left: 15px;
     color: white;
     font-size: 20px;
 }
-
 .contact >input:nth-of-type(4){
     background-color: rgba(255, 255, 255, 0);
     height: 50px;
@@ -506,6 +502,7 @@ footer >p{
 } 
 
 /* ---------- Desktop---------*/
+
 @media only screen and (min-width: 992px){
     .faces{
         display: flex;
